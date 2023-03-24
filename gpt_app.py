@@ -9,7 +9,7 @@ def generate_text(prompt):
     response = openai.Completion.create(
         engine="text-davinci-002",
         prompt=prompt,
-        max_tokens=250,  # Increase the max_tokens value
+        max_tokens=150,  # Increase the max_tokens value
         n=1,
         stop=None,
         temperature=0.7,
