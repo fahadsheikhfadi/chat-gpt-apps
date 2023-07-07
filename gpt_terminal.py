@@ -1,13 +1,8 @@
-
-"""
-OPEN AI API KEY: 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
-"""
-
 import openai
 import sys
 
 # Replace YOUR_API_KEY with your actual API key
-openai.api_key = "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"
+openai.api_key = "API_KEY_HERE"
 
 def generate_text(prompt):
     response = openai.Completion.create(
